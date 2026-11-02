@@ -1,0 +1,5 @@
+{
+  "name": "Home Assistant Banking API Token",
+  "render_readme": true,
+  "homeassistant": "2024.6.0"
+}

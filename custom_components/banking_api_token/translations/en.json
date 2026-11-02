@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a bank account",
+        "description": "Configure one account per integration entry. Add additional accounts by repeating this flow.",
+        "data": {
+          "name": "Account name",
+          "bank": "Bank",
+          "account_id": "Creditas account ID",
+          "read_token": "Read token",
+          "pay_token": "Pay token (stored for future use; not used in read-only MVP)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bank API options",
+        "data": {
+          "scan_interval": "Polling interval (seconds)",
+          "debug_api": "Detailed API request metadata in debug logs",
+          "read_token": "New read token (leave empty to keep current)",
+          "pay_token": "New pay token (leave empty to keep current)"
+        }
+      }
+    }
+  }
+}

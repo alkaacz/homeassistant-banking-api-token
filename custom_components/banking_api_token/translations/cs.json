@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Přidat bankovní účet",
+        "description": "Každý účet se konfiguruje samostatně. Další přidáte opakováním tohoto průvodce.",
+        "data": {
+          "name": "Název účtu",
+          "bank": "Banka",
+          "account_id": "Creditas accountId",
+          "read_token": "Read token",
+          "pay_token": "Pay token (uloží se, v read-only MVP se nepoužívá)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Nastavení bankovního API",
+        "data": {
+          "scan_interval": "Interval aktualizace (sekundy)",
+          "debug_api": "Podrobné metadata API volání v debug logu",
+          "read_token": "Nový read token (prázdné ponechá současný)",
+          "pay_token": "Nový pay token (prázdné ponechá současný)"
+        }
+      }
+    }
+  }
+}

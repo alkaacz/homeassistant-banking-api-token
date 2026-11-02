@@ -1,0 +1,12 @@
+{
+  "domain": "banking_api_token",
+  "name": "Banking API Token",
+  "codeowners": ["@alkaacz"],
+  "config_flow": true,
+  "documentation": "https://github.com/alkaacz/homeassistant-banking-api-token",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/alkaacz/homeassistant-banking-api-token/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
